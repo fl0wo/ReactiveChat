@@ -19,7 +19,7 @@ public class ReactiveNotifyServer extends SimpleChannelInboundHandler<String> {
     //private ChannelGroup all = new DefaultChannelGroup(GlobalEventExecutor.INSTANCE);
     // neanche questo funziona ...
     //private Set<Channel> set = new HashSet<>();
-    // bho diocan
+    // 
     //private HashMap<String,Channel> map = new HashMap<String,Channel>();
     @Override
     public void handlerAdded(ChannelHandlerContext chc) {
